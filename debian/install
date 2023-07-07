@@ -1,0 +1,2 @@
+fonts/otf/*.otf usr/share/fonts/opentype/mplus
+debian/fonts-mplus.metainfo.xml usr/share/metainfo

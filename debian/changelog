@@ -1,5 +1,292 @@
-template-repository (1.0-1) unstable; urgency=medium
+fonts-mplus (063+git20221017+ds-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream version.
+  * Update my email address.
+  * Bump standards version to 4.6.1.
+  * d/control:
+    - drop old ttf-mplus parts.
+    - update homepage.
+    - added Rules-Requires-Root.
+  * Bump debhelper version to 13, drop d/compat.
+  * d/install: updated to install all otf fonts.
+  * d/docs: updated.
+  * d/upstream: added.
+  * d/maintscript: dropped.
+  * d/copyright: renewed.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Gürkan Myczko <tar@debian.org>  Mon, 17 Oct 2022 14:47:32 +0200
+
+fonts-mplus (063-3) unstable; urgency=medium
+
+  * Fix Vcs fields.
+  * Bump standards version to 4.5.0.
+  * debian/source/options: dropped.
+
+ -- Gürkan Myczko <gurkan@phys.ethz.ch>  Thu, 13 Feb 2020 12:22:13 +0100
+
+fonts-mplus (063-2) unstable; urgency=medium
+
+  * Add AppStream data.
+  * Bump debhelper version to 11.
+  * Bump standards version to 4.1.3.
+
+ -- Gürkan Myczko <gurkan@phys.ethz.ch>  Tue, 20 Feb 2018 16:21:43 +0100
+
+fonts-mplus (063-1) unstable; urgency=medium
+
+  * New upstream version.
+  * Bump standards version to 4.1.1.
+  * Bump debhelper version to 10.
+
+ -- Gürkan Myczko <gurkan@phys.ethz.ch>  Mon, 30 Oct 2017 09:38:50 +0100
+
+fonts-mplus (062-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Gürkan Myczko <gurkan@phys.ethz.ch>  Tue, 04 Oct 2016 09:17:04 +0200
+
+fonts-mplus (061-1) unstable; urgency=medium
+
+  * New upstream version.
+  * Bump standards version to 3.9.8.
+
+ -- Gürkan Myczko <gurkan@phys.ethz.ch>  Tue, 05 Jul 2016 15:35:34 +0200
+
+fonts-mplus (060-1) unstable; urgency=medium
+
+  * New upstream version.
+  * Bump standards version to 3.9.6.
+  * debian/copyright: update years.
+  * Change my name.
+
+ -- Gürkan Myczko <gurkan@phys.ethz.ch>  Wed, 21 Oct 2015 11:58:33 +0200
+
+fonts-mplus (057-2) unstable; urgency=low
+
+  * Team upload
+  * Bump debhelper compatibility to 9
+  * Drop transitional package
+  * Add 'Multi-Arch: foreign' field
+  * Use git for packaging: adapt Vcs-* fields
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 05 Jan 2014 14:28:48 +0100
+
+fonts-mplus (057-1) unstable; urgency=low
+
+  * New upstream version.
+  * debian/copyright: update years
+  * Bump standards version to 3.9.5.
+
+ -- Gürkan Sengün <gurkan@phys.ethz.ch>  Fri, 08 Nov 2013 09:50:46 +0100
+
+fonts-mplus (056-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Gürkan Sengün <gurkan@phys.ethz.ch>  Wed, 12 Jun 2013 09:47:42 +0200
+
+fonts-mplus (055-1) unstable; urgency=low
+
+  [ Gürkan Sengün ]
+  * New upstream version.
+
+  [ Axel Beckert ]
+  * Use xz -6 instead of xz -9.
+
+ -- Gürkan Sengün <gurkan@phys.ethz.ch>  Mon, 08 Apr 2013 11:40:07 +0200
+
+fonts-mplus (053-1) unstable; urgency=low
+
+  [ Gürkan Sengün ]
+  * New upstream version.
+  
+  [ Axel Beckert ]
+  * Fix watch file to also properly download xz-compressed upstream
+    archives. Thanks to Ryo Igarashi for the bug report and
+    patch. (Closes: #680152)
+  * Use dh_installdeb maintscript support instead of calling
+    dpkg-maintscript-helper directly in the maintainer scripts. Thanks
+    Colin Watson. (Closes: #659600)
+  * Replacing "Conflicts" with "Breaks". Fixes lintian warning
+    conflicts-with-version.
+
+ -- Gürkan Sengün <gurkan@phys.ethz.ch>  Tue, 11 Dec 2012 09:32:28 +0100
+
+fonts-mplus (049-1) unstable; urgency=low
+
+  * New upstream version.
+  * Bump standards version to 3.9.3.
+
+ -- Gürkan Sengün <gurkan@phys.ethz.ch>  Wed, 23 May 2012 10:24:47 +0200
+
+fonts-mplus (048-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Gürkan Sengün <gurkan@phys.ethz.ch>  Sat, 14 Apr 2012 17:28:13 +0200
+
+fonts-mplus (047-1) unstable; urgency=low
+
+  * New upstream version.
+  * debian/copyright: Update years.
+
+ -- Gürkan Sengün <gurkan@phys.ethz.ch>  Tue, 06 Mar 2012 09:41:38 +0100
+
+fonts-mplus (046-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Gürkan Sengün <gurkan@phys.ethz.ch>  Fri, 03 Feb 2012 09:43:44 +0100
+
+fonts-mplus (045-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Gürkan Sengün <gurkan@phys.ethz.ch>  Tue, 13 Dec 2011 08:34:50 +0100
+
+fonts-mplus (044-2) unstable; urgency=low
+
+  * Team upload
+  * Adapt watch file to xz-compressed archives provided by upstream
+    Thanks to Ryo Igarashi for pointing this. Closes: #648915
+
+ -- Christian Perrier <bubulle@sesostris.kheops.frmug.org>  Thu, 17 Nov 2011 08:44:49 +0100
+
+fonts-mplus (044-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Gürkan Sengün <gurkan@phys.ethz.ch>  Thu, 03 Nov 2011 13:54:10 +0100
+
+fonts-mplus (043-1) unstable; urgency=low
+
+  * New upstream version.
+  * Rename source package to "fonts-mplus" to fit the Font
+    Packages Naming Policy.
+  * debian/control: Switch Maintainer and Uploaders.
+
+ -- Gürkan Sengün <gurkan@phys.ethz.ch>  Fri, 07 Oct 2011 13:02:44 +0200
+
+ttf-mplus (042-1) unstable; urgency=low
+
+  * New upstream version.
+  * Switch to xz compression for source and binary package.
+  * Update source/format version to 3.0.
+
+ -- Gürkan Sengün <gurkan@phys.ethz.ch>  Mon, 29 Aug 2011 12:52:33 +0200
+
+ttf-mplus (041-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Gürkan Sengün <gurkan@phys.ethz.ch>  Thu, 04 Aug 2011 12:05:44 +0200
+
+ttf-mplus (040-1) unstable; urgency=low
+
+  * New upstream version.
+
+  [Sven Hoexter]
+  * Defoma removal:
+    + Remove debian/defoma-hints.
+    + Remove build-dep on defoma.
+    + Remove overide_dh_installdocs target in debian/rules, where
+      the call to dh_installdefoma was implemented.
+    + Add preinst, postinst, postrm maintainer scripts to call
+      dpkg-maintscript-helper rm_conffile for a save removal of
+      the old defoma hints file.
+
+ -- Gürkan Sengün <gurkan@phys.ethz.ch>  Tue, 14 Jun 2011 14:10:31 +0200
+
+ttf-mplus (039-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Gürkan Sengün <gurkan@phys.ethz.ch>  Tue, 17 May 2011 19:19:57 +0200
+
+ttf-mplus (038-1) unstable; urgency=low
+
+  * New upstream version.
+  * Bump standards version to 3.9.2.
+  * Bump debhelper version to 8.
+
+ -- Gürkan Sengün <gurkan@phys.ethz.ch>  Tue, 26 Apr 2011 13:29:28 +0200
+
+ttf-mplus (037-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Gürkan Sengün <gurkan@phys.ethz.ch>  Tue, 22 Mar 2011 16:13:31 +0100
+
+ttf-mplus (036-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Gürkan Sengün <gurkan@phys.ethz.ch>  Sun, 06 Feb 2011 11:59:24 +0100
+
+ttf-mplus (035-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Gürkan Sengün <gurkan@phys.ethz.ch>  Wed, 29 Dec 2010 13:41:52 +0100
+
+ttf-mplus (034-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Gürkan Sengün <gurkan@phys.ethz.ch>  Tue, 09 Nov 2010 13:01:55 +0100
+
+ttf-mplus (033-1) unstable; urgency=low
+
+  * New upstream version.
+  * Add debian/source/format file.
+
+ -- Gürkan Sengün <gurkan@phys.ethz.ch>  Tue, 28 Sep 2010 11:06:42 +0200
+
+ttf-mplus (032-1) unstable; urgency=low
+
+  * New upstream version.
+  * Bump standards version to 3.9.1.
+
+ -- Gürkan Sengün <gurkan@phys.ethz.ch>  Mon, 16 Aug 2010 14:29:51 +0200
+
+ttf-mplus (031-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Gürkan Sengün <gurkan@phys.ethz.ch>  Sun, 18 Jul 2010 14:01:58 +0200
+
+ttf-mplus (030-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Gürkan Sengün <gurkan@phys.ethz.ch>  Fri, 30 Apr 2010 12:53:35 +0200
+
+ttf-mplus (029-1) unstable; urgency=low
+
+  * New upstream version. (Closes: #574245)
+  * debian/copyright: Updated years.
+  * Updated standards version to 3.8.4.
+  * Fix debhelper-overrides-need-versioned-build-depends.
+
+ -- Gürkan Sengün <gurkan@phys.ethz.ch>  Wed, 17 Mar 2010 09:55:38 +0100
+
+ttf-mplus (028-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Gürkan Sengün <gurkan@phys.ethz.ch>  Sun, 27 Dec 2009 14:37:45 +0100
+
+ttf-mplus (027-1) unstable; urgency=low
+
+  * New upstream version.
+  * debian/watch: Added, thanks YOSHINO Yoshihito for the patch.
+    (Closes: #555637)
+
+ -- Gürkan Sengün <gurkan@phys.ethz.ch>  Mon, 09 Nov 2009 12:51:24 +0100
+
+ttf-mplus (026-1) unstable; urgency=low
+
+  * Initial release. (Closes: #550936)
+
+ -- Gürkan Sengün <gurkan@phys.ethz.ch>  Wed, 14 Oct 2009 11:57:53 +0200

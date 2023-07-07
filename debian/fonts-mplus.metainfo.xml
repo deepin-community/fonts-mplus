@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="font">
+  <id>fonts-mplus</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>Special-Free-Software</project_license>
+  <name>M+</name>
+  <summary>M+ sans serif fonts with different weights</summary>
+  <description>
+    <p>
+       This is a collection of sans serif fonts with different weights, including
+ Japanese glyphs.
+ All fonts were completed with Basic Latin, Latin-1 Supplement, and Latin
+ Extended-A. And most of extended glyphs and symbols were prepared too. So the
+ fonts are in conformity with ISO-8859-1, 2, 3, 4, 7, 9, 10, 13, 14, 15, 16,
+ windows-1252, and T1 encoding.
+ In addition, proportional M+ P Type-1 and M+ P Type-2 fonts were completed
+ with Latin Extended-B, Latin Extended Additional, and ISO-8859-5. And many
+ Greek, Cyrillic, IPA Extensions glyphs, and symbols were expanded. Those
+ additional glyphs are included in M+ C provisionality.
+    </p>
+  </description>
+  <url type="homepage">http://mplus-fonts.sourceforge.jp/</url>
+  <update_contact>gurkan@phys.ethz.ch</update_contact>
+</component>
